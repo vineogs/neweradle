@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 const props = defineProps({
     historico: {
@@ -79,12 +79,24 @@ function nextMes() {
         mesAtual.value++
     }
 }
-</script>
+
+function handleKeydown(event) {
+    if (event.key === 'Escape') {
+        emit('close')
+    }
+}
+
+onMounted(() => {
+    window.addEventListener('keydown', handleKeydown)
+})
+
+onUnmounted(() => {
+    window.removeEventListener('keydown', handleKeydown)
+})</script>
 
 <template>
-    <div class="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
-
-        <div class="bg-gray-900 p-6 rounded-xl w-105">
+    <div class="fixed inset-0 bg-black/70 flex items-center justify-center z-50" @click="emit('close')">
+        <div class="bg-gray-900 p-6 rounded-xl w-105" @click.stop>
 
             <div class="flex justify-between items-center mb-4">
                 <button @click="prevMes" class="px-2">◀</button>

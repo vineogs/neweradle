@@ -1,47 +1,62 @@
 [
-    {
-        "id": 1,
-        "nome": "Kored",
-        "imagem": "/personagens/recrated/kored.png",
-        "atributos": {
-            "genero": "Masculino",
-            "estadoAtual": "Desaparecido",
-            "idade": "40+",
-            "elemento": "Todo menos Éther",
-            "afiliacao": "monge",
-            "primeiraAparicao": "Recrated",
-            "cabelo": "Castanho",
-            "nacionalidade": "Natiuse"
-        }
-    },
-    {
-        "id": 2,
-        "nome": "Will",
-        "imagem": "/personagens/recrated/will.png",
-        "atributos": {
-            "genero": "Masculino",
-            "estadoAtual": "Vivo",
-            "idade": "30-40",
-            "elemento": "Todo",
-            "afiliacao": "monge",
-            "primeiraAparicao": "Recrated",
-            "cabelo": "preto",
-            "nacionalidade": "Natiuse"
-        }
-    },
-    {
-        "id": 3,
-        "nome": "Lynda",
-        "imagem": "/personagens/recrated/lynda.png",
-        "atributos": {
-            "genero": "Feminino",
-            "estadoAtual": "Viva",
-            "idade": "20-30",
-            "elemento": "Éther",
-            "afiliacao": "monge",
-            "primeiraAparicao": "Recrated",
-            "cabelo": "Castanho",
-            "nacionalidade": "Natiuse"
-        }
+  {
+    "id": 1,
+    "nome": "Kored",
+    "imagem": "/personagens/recrated/kored.webp",
+    "atributos": {
+      "genero": "Masculino",
+      "estadoAtual": "Desaparecido",
+      "idade": "40+",
+      "elemento": ["Fogo", "Ar", "Terra", "Raio", "Água"],
+      "afiliacao": "monge",
+      "primeiraAparicao": "Recrated",
+      "cabelo": "Castanho",
+      "nacionalidade": "Natiuse"
     }
+  },
+  {
+    "id": 2,
+    "nome": "Will",
+    "imagem": "/personagens/recrated/will.webp",
+    "atributos": {
+      "genero": "Masculino",
+      "estadoAtual": "Vivo",
+      "idade": "30-40",
+      "elemento": ["Fogo", "Ar", "Terra", "Raio", "Água"],
+      "afiliacao": "monge",
+      "primeiraAparicao": "Recrated",
+      "cabelo": "preto",
+      "nacionalidade": "Natiuse"
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Lynda",
+    "imagem": "/personagens/recrated/lynda.webp",
+    "atributos": {
+      "genero": "Feminino",
+      "estadoAtual": "Viva",
+      "idade": "20-30",
+      "elemento": ["Éther"],
+      "afiliacao": "monge",
+      "primeiraAparicao": "Recrated",
+      "cabelo": "Castanho",
+      "nacionalidade": "Natiuse"
+    }
+  },
+  {
+    "id": 4,
+    "nome": "Ilked",
+    "imagem": "/personagens/recrated/ilked.webp",
+    "atributos": {
+      "genero": "Masculino",
+      "estadoAtual": "Morto",
+      "idade": "30-40",
+      "elemento": ["Éther"],
+      "afiliacao": "monge",
+      "primeiraAparicao": "Recrated",
+      "cabelo": "Preto",
+      "nacionalidade": "Natiuse"
+    }
+  }
 ]

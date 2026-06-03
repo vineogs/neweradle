@@ -1,85 +1,109 @@
-import personagens from '../data/personagens.json'
+import personagens from "../data/personagens.json";
 
 export function getPersonagens() {
-    return personagens
+  return personagens;
 }
 
-export function gerarPersonagem(modo = 'diario') {
-    if (modo === 'diario') return gerarPersonagemDiario()
-    return gerarPersonagemAleatorio()
+export function gerarPersonagem(modo = "diario") {
+  if (modo === "diario") return gerarPersonagemDiario();
+  return gerarPersonagemAleatorio();
 }
 
 export function gerarPersonagemDiario() {
-    const hoje = new Date()
-    const seed = hoje.getFullYear() * 10000 + (hoje.getMonth() + 1) * 100 + hoje.getDate()
-    const index = seed % personagens.length
-    return personagens[index]
+  const hoje = new Date();
+  const seed =
+    hoje.getFullYear() * 10000 + (hoje.getMonth() + 1) * 100 + hoje.getDate();
+  const index = seed % personagens.length;
+  return personagens[index];
 }
 
 export function gerarPersonagemAleatorio() {
-    return personagens[Math.floor(Math.random() * personagens.length)]
+  return personagens[Math.floor(Math.random() * personagens.length)];
 }
 
 export function comparar(tentativa, secreto) {
-    return {
-        nome: tentativa.nome === secreto.nome,
+  return {
+    nome: tentativa.nome === secreto.nome,
 
-        genero: tentativa.atributos.genero === secreto.atributos.genero,
-        estadoAtual: tentativa.atributos.estadoAtual === secreto.atributos.estadoAtual,
+    genero: tentativa.atributos.genero === secreto.atributos.genero,
+    estadoAtual:
+      tentativa.atributos.estadoAtual === secreto.atributos.estadoAtual,
 
-        idade: compararIdade(tentativa, secreto),
+    idade: compararIdade(tentativa, secreto),
 
-        elemento: tentativa.atributos.elemento === secreto.atributos.elemento,
-        afiliacao: tentativa.atributos.afiliacao === secreto.atributos.afiliacao,
-        primeiraAparicao: tentativa.atributos.primeiraAparicao === secreto.atributos.primeiraAparicao,
-        cabelo: tentativa.atributos.cabelo === secreto.atributos.cabelo,
-        nacionalidade: tentativa.atributos.nacionalidade === secreto.atributos.nacionalidade
-    }
+    elemento: compararArrays(
+      tentativa.atributos.elemento,
+      secreto.atributos.elemento,
+    ),
+    afiliacao: tentativa.atributos.afiliacao === secreto.atributos.afiliacao,
+    primeiraAparicao:
+      tentativa.atributos.primeiraAparicao ===
+      secreto.atributos.primeiraAparicao,
+    cabelo: tentativa.atributos.cabelo === secreto.atributos.cabelo,
+    nacionalidade:
+      tentativa.atributos.nacionalidade === secreto.atributos.nacionalidade,
+  };
+}
+
+function compararArrays(arr1 = [], arr2 = []) {
+  const set2 = new Set(arr2);
+
+  const intersecao = arr1.filter((item) => set2.has(item));
+
+  if (intersecao.length === 0) {
+    return { status: "wrong", match: [] };
+  }
+
+  if (intersecao.length === arr1.length && arr1.length === arr2.length) {
+    return { status: "correct", match: intersecao };
+  }
+
+  return { status: "partial", match: intersecao };
 }
 
 function compararIdade(tentativa, secreto) {
-    const t = rankIdade[tentativa.atributos.idade]
-    const s = rankIdade[secreto.atributos.idade]
+  const t = rankIdade[tentativa.atributos.idade];
+  const s = rankIdade[secreto.atributos.idade];
 
-    if (t === s) return 'igual'
-    if (t > s) return 'mais_velho'
-    return 'mais_novo'
+  if (t === s) return "igual";
+  if (t > s) return "mais_velho";
+  return "mais_novo";
 }
 
 const rankIdade = {
-    "0-10": 1,
-    "10-20": 2,
-    "20-30": 3,
-    "30-40": 4,
-    "40+": 5
-}
+  "0-10": 1,
+  "10-20": 2,
+  "20-30": 3,
+  "30-40": 4,
+  "40+": 5,
+};
 
 export function getDataHoje() {
-    return new Date().toISOString().split('T')[0]
+  return new Date().toISOString().split("T")[0];
 }
 
 export function carregarHistorico() {
-    const data = localStorage.getItem('neweradle-history')
-    return data ? JSON.parse(data) : {}
+  const data = localStorage.getItem("neweradle-history");
+  return data ? JSON.parse(data) : {};
 }
 
 export function salvarHistorico(hist) {
-    localStorage.setItem('neweradle-history', JSON.stringify(hist))
+  localStorage.setItem("neweradle-history", JSON.stringify(hist));
 }
 
 export function setStatusDia(status) {
-    const hist = carregarHistorico()
-    const hoje = getDataHoje()
+  const hist = carregarHistorico();
+  const hoje = getDataHoje();
 
-    hist[hoje] = status
+  hist[hoje] = status;
 
-    salvarHistorico(hist)
+  salvarHistorico(hist);
 }
 
 export function formatarDataChave(date = new Date()) {
-    const ano = date.getFullYear()
-    const mes = String(date.getMonth() + 1).padStart(2, '0')
-    const dia = String(date.getDate()).padStart(2, '0')
+  const ano = date.getFullYear();
+  const mes = String(date.getMonth() + 1).padStart(2, "0");
+  const dia = String(date.getDate()).padStart(2, "0");
 
-    return `${ano}-${mes}-${dia}`
+  return `${ano}-${mes}-${dia}`;
 }

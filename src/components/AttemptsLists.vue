@@ -19,28 +19,36 @@ defineProps({
             {{ titulo }}
         </h2>
 
-        <!-- HEADER -->
-        <div class="grid grid-cols-10 gap-2 mb-2">
+        <!-- wrapper visual responsivo -->
+        <div class="w-full overflow-x-auto">
+            <div class="min-w-225">
 
-            <div class="cell header-cell">Img</div>
-            <div class="cell header-cell">Nome</div>
-            <div class="cell header-cell">Gênero</div>
-            <div class="cell header-cell">Estado</div>
-            <div class="cell header-cell">Idade</div>
-            <div class="cell header-cell">Elemento</div>
-            <div class="cell header-cell">Afiliação</div>
-            <div class="cell header-cell">Aparição</div>
-            <div class="cell header-cell">Cabelo</div>
-            <div class="cell header-cell">Nação</div>
+                <!-- HEADER -->
+                <div class="grid grid-cols-10 gap-2 mb-2">
 
-        </div>
+                    <div class="cell header-cell">Img</div>
+                    <div class="cell header-cell">Nome</div>
+                    <div class="cell header-cell">Gênero</div>
+                    <div class="cell header-cell">Estado</div>
+                    <div class="cell header-cell">Idade</div>
+                    <div class="cell header-cell">Elemento</div>
+                    <div class="cell header-cell">Afiliação</div>
+                    <div class="cell header-cell">Aparição</div>
+                    <div class="cell header-cell">Cabelo</div>
+                    <div class="cell header-cell">Nação</div>
 
-        <div v-if="!tentativas.length" class="text-center text-gray-400">
-            Nenhuma tentativa ainda
-        </div>
+                </div>
 
-        <div v-else class="flex flex-col gap-2">
-            <AttemptRow v-for="(t, i) in tentativas" :key="i" :tentativa="t" />
+                <div v-if="!tentativas.length" class="text-center text-gray-400">
+                    Nenhuma tentativa ainda
+                </div>
+
+                <div v-else class="flex flex-col gap-2">
+                    <AttemptRow v-for="(t, i) in [...tentativas].reverse()" :key="`${t.personagem.id}-${i}`"
+                        :tentativa="t" />
+                </div>
+
+            </div>
         </div>
 
     </div>
