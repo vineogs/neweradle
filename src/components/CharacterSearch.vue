@@ -37,7 +37,7 @@
 </script>
 
     <template>
-        <div class="flex flex-col gap-2">
+        <div :class="venceu ? 'hidden' : ''" class="flex flex-col gap-2">
 
             <input v-model="busca" @input="onInput" :disabled="venceu" type="text" placeholder="Digite um personagem..."
                 class="w-full px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 disabled:bg-gray-800 disabled:text-gray-500 disabled:cursor-not-allowed" />

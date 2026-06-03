@@ -5,7 +5,12 @@ defineProps({
 </script>
 
 <template>
-    <div class="grid grid-cols-9 gap-2 font-semibold">
+    <div class="grid grid-cols-10 gap-2 font-semibold">
+
+        <div class="cell bg-gray-700">
+            <img :src="tentativa.personagem.imagem" alt="Imagem do personagem"
+                class="w-full h-full object-cover rounded">
+        </div>
 
         <div class="cell bg-gray-700" :class="tentativa.resultado.nome ? 'bg-green-600' : 'bg-red-600'">
             {{ tentativa.personagem.nome }}
