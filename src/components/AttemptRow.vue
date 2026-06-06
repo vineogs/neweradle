@@ -1,68 +1,115 @@
 <script setup>
 defineProps({
-    tentativa: Object
+    tentativa: Object,
+    animar: Boolean
 })
 </script>
 
 <template>
-    <div class="grid grid-cols-10 gap-2 font-semibold">
+    <div class="grid grid-cols-9 gap-2 font-semibold">
 
-        <div class="cell bg-gray-700 reveal delay-0">
-            <img :src="tentativa.personagem.imagem" alt="Imagem do personagem" class="w-24 h-24 object-cover rounded">
+        <!-- IMG -->
+        <div class="cell bg-gray-700">
+            <img :src="tentativa.personagem.imagem" alt="Imagem do personagem" loading="lazy"
+                class="w-24 h-24 object-cover object-top rounded">
         </div>
 
-        <div class="cell reveal delay-1 bg-gray-700" :class="tentativa.resultado.nome ? 'bg-green-600' : 'bg-red-600'">
-            {{ tentativa.personagem.nome }}
+        <!-- NOME -->
+        <div class="cell bg-gray-700" :class="[
+            tentativa.dicas.nome === 'correct' ? 'bg-green-600' : 'bg-red-600',
+            { reveal: animar, 'delay-0': animar }
+        ]">
+            <div class="flex flex-col">
+                <span class="font-bold">
+                    {{ tentativa.personagem.nome }}
+                </span>
+
+                <span class="text-xs opacity-80">
+                    {{ Array.isArray(tentativa.personagem.descricao)
+                        ? tentativa.personagem.descricao.join(', ')
+                        : tentativa.personagem.descricao }}
+                </span>
+            </div>
         </div>
 
-        <div class="cell reveal delay-2" :class="tentativa.resultado.genero ? 'bg-green-600' : 'bg-red-600'">
+        <!-- GENERO -->
+        <div class="cell" :class="[
+            tentativa.dicas.genero === 'correct' ? 'bg-green-600' : 'bg-red-600',
+            { reveal: animar, 'delay-1': animar }
+        ]">
             {{ tentativa.personagem.atributos.genero }}
         </div>
 
-        <div class="cell reveal delay-3" :class="tentativa.resultado.estadoAtual ? 'bg-green-600' : 'bg-red-600'">
+        <!-- ESTADO -->
+        <div class="cell" :class="[
+            tentativa.dicas.estadoAtual === 'correct' ? 'bg-green-600' : 'bg-red-600',
+            { reveal: animar, 'delay-2': animar }
+        ]">
             {{ tentativa.personagem.atributos.estadoAtual }}
         </div>
 
-        <div class="cell reveal delay-4" :class="{
-            'bg-green-600': tentativa.resultado.idade === 'igual',
-            'bg-red-600': tentativa.resultado.idade !== 'igual'
-        }">
+        <!-- IDADE -->
+        <!-- <div class="cell" :class="[
+            tentativa.dicas.idade === 'correct' ? 'bg-green-600' : 'bg-red-600',
+            { reveal: animar, 'delay-3': animar }
+        ]">
 
-            <span v-if="tentativa.resultado.idade === 'igual'">
+            <span v-if="tentativa.dicas.idade === 'correct'">
                 {{ tentativa.personagem.atributos.idade }}
             </span>
 
-            <span v-else-if="tentativa.resultado.idade === 'mais_velho'">
-                {{ tentativa.personagem.atributos.idade }} ↓
-            </span>
-
-            <span v-else>
+            <span v-else-if="tentativa.dicas.idade === 'higher'">
                 {{ tentativa.personagem.atributos.idade }} ↑
             </span>
 
-        </div>
+            <span v-else>
+                {{ tentativa.personagem.atributos.idade }} ↓
+            </span>
+        </div> -->
 
-        <div class="cell reveal delay-5" :class="{
-            'bg-green-600': tentativa.resultado.elemento.status === 'correct',
-            'bg-orange-500': tentativa.resultado.elemento.status === 'partial',
-            'bg-red-600': tentativa.resultado.elemento.status === 'wrong'
-        }">
+        <!-- ELEMENTO -->
+        <div class="cell" :class="[
+            tentativa.dicas.elemento === 'correct' ? 'bg-green-600'
+                : tentativa.dicas.elemento === 'partial' ? 'bg-orange-500'
+                    : 'bg-red-600',
+            { reveal: animar, 'delay-4': animar }
+        ]">
             {{ tentativa.personagem.atributos.elemento.join(', ') }}
         </div>
 
-        <div class="cell reveal delay-6" :class="tentativa.resultado.afiliacao ? 'bg-green-600' : 'bg-red-600'">
-            {{ tentativa.personagem.atributos.afiliacao }}
+        <!-- AFILIACAO -->
+        <div class="cell" :class="[
+            tentativa.dicas.afiliacao === 'correct' ? 'bg-green-600'
+                : tentativa.dicas.afiliacao === 'partial' ? 'bg-orange-500'
+                    : 'bg-red-600',
+            { reveal: animar, 'delay-5': animar }
+        ]">
+            {{ tentativa.personagem.atributos.afiliacao.join(', ') }}
         </div>
 
-        <div class="cell reveal delay-7" :class="tentativa.resultado.primeiraAparicao ? 'bg-green-600' : 'bg-red-600'">
+        <!-- APARICAO -->
+        <div class="cell" :class="[
+            tentativa.dicas.primeiraAparicao === 'correct' ? 'bg-green-600' : 'bg-red-600',
+            { reveal: animar, 'delay-6': animar }
+        ]">
             {{ tentativa.personagem.atributos.primeiraAparicao }}
         </div>
 
-        <div class="cell reveal delay-8" :class="tentativa.resultado.cabelo ? 'bg-green-600' : 'bg-red-600'">
-            {{ tentativa.personagem.atributos.cabelo }}
+        <!-- CABELO -->
+        <div class="cell" :class="[
+            tentativa.dicas.cabelo === 'correct' ? 'bg-green-600'
+                : tentativa.dicas.cabelo === 'partial' ? 'bg-orange-500'
+                    : 'bg-red-600',
+            { reveal: animar, 'delay-7': animar }
+        ]">
+            {{ tentativa.personagem.atributos.cabelo.join(', ') }}
         </div>
 
-        <div class="cell reveal delay-9" :class="tentativa.resultado.nacionalidade ? 'bg-green-600' : 'bg-red-600'">
+        <!-- NACIONALIDADE -->
+        <div class="cell" :class="[
+            tentativa.dicas.nacionalidade === 'correct' ? 'bg-green-600' : 'bg-red-600',
+            { reveal: animar, 'delay-8': animar }
+        ]">
             {{ tentativa.personagem.atributos.nacionalidade }}
         </div>
 
@@ -72,21 +119,18 @@ defineProps({
 <style scoped>
 .cell {
     min-height: 80px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-align: center;
     padding: 8px;
-
     border-radius: 8px;
-
     word-break: break-word;
     overflow-wrap: anywhere;
     white-space: normal;
 }
 
+/* anima só quando animar === true */
 .reveal {
     opacity: 0;
     transform: rotateX(90deg);

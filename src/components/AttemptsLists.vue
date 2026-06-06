@@ -1,15 +1,14 @@
 <script setup>
+import { computed } from 'vue'
 import AttemptRow from './AttemptRow.vue'
 
-defineProps({
-    tentativas: {
-        type: Array,
-        default: () => []
-    },
-    titulo: {
-        type: String,
-        default: ''
-    }
+const props = defineProps({
+    tentativas: Array,
+    titulo: String
+})
+
+const tentativasOrdenadas = computed(() => {
+    return [...props.tentativas].reverse()
 })
 </script>
 
@@ -24,13 +23,13 @@ defineProps({
             <div class="min-w-225">
 
                 <!-- HEADER -->
-                <div class="grid grid-cols-10 gap-2 mb-2">
+                <div class="grid grid-cols-9 gap-2 mb-2">
 
                     <div class="cell header-cell">Img</div>
                     <div class="cell header-cell">Nome</div>
                     <div class="cell header-cell">Gênero</div>
                     <div class="cell header-cell">Estado</div>
-                    <div class="cell header-cell">Idade</div>
+                    <!-- <div class="cell header-cell">Idade</div> -->
                     <div class="cell header-cell">Elemento</div>
                     <div class="cell header-cell">Afiliação</div>
                     <div class="cell header-cell">Aparição</div>
@@ -44,8 +43,8 @@ defineProps({
                 </div>
 
                 <div v-else class="flex flex-col gap-2">
-                    <AttemptRow v-for="(t, i) in [...tentativas].reverse()" :key="`${t.personagem.id}-${i}`"
-                        :tentativa="t" />
+                    <AttemptRow v-for="(t, i) in tentativasOrdenadas" :key="t.id ?? `${t.personagem.id}-${i}`"
+                        :tentativa="t" :animar="i === 0" />
                 </div>
 
             </div>

@@ -1,281 +1,328 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
+import { getPersonagens, tentarPersonagem } from '../services/api.js'
 
+import CountdownTimer from '../components/CountdownTimer.vue'
 import CharacterSearch from '../components/CharacterSearch.vue'
 import AttemptsList from '../components/AttemptsLists.vue'
 import DailyCalendar from '../components/DailyCalendar.vue'
 
-import {
-    getPersonagens,
-    gerarPersonagem,
-    comparar,
-    formatarDataChave
-} from '../services/gameService'
+const API_URL = '/public/api'
 
-const personagens = getPersonagens()
+const mostrarCalendario = ref(false)
+
+const personagens = ref([])
 
 const modo = ref('diario')
 
-const personagemSecreto = ref(null)
+const resultado = ref(null)
+
 const personagemSelecionado = ref(null)
 
-const tentativasDiario = ref([])
-const tentativasInfinito = ref([])
+const tentativas = ref([])
 
-const venceuDiario = ref(false)
-const venceuInfinito = ref(false)
-
-const jogouHoje = ref(false)
-
-const resetKey = ref(0)
+const bloqueadoHoje = computed(() => {
+    const hoje = getHoje()
+    const historico = JSON.parse(localStorage.getItem('neweradle_historico') || '{}')
+    return !!historico[hoje]?.original
+})
 
 const historicoCalendario = ref({})
-const mostrarCalendario = ref(false)
 
-function getHoje() {
-    return formatarDataChave()
+const streak = ref(0)
+const totalWins = ref(0)
+const totalGames = ref(0)
+const jogosInfinito = ref(0)
+
+const replayData = ref(null)
+
+const diasDoServidor = ref({})
+
+function iniciarJogo() {
+    personagemSelecionado.value = null
 }
 
-function carregarHistorico() {
-    try {
-        return JSON.parse(localStorage.getItem('historico-calendario')) || {}
-    } catch {
-        return {}
+function mudarModo(novoModo) {
+    modo.value = novoModo
+
+    if (novoModo === 'infinito') {
+        resetInfinito()
+    }
+
+    if (novoModo === 'diario') {
+        carregarDiario()
+    }
+
+    if (novoModo === 'replay') {
+        return
     }
 }
 
-function salvarHistorico(novoHistorico) {
-    historicoCalendario.value = novoHistorico
-    localStorage.setItem(
-        'historico-calendario',
-        JSON.stringify(novoHistorico)
+function podeJogarReplay(entry) {
+    return !!entry?.original
+}
+
+async function tentar(personagem) {
+    const res = await tentarPersonagem({
+        modo: modo.value,
+        personagemId: personagem.id,
+        date: modo.value === 'replay' ? replayData.value.date : null
+    })
+
+    tentativas.value.push({
+        personagem: res.tentativa,
+        dicas: res.dicas,
+        isNew: true
+    })
+
+    tentativas.value.forEach(t => t.isNew = false)
+
+    resultado.value = res
+
+    const dataJogo = modo.value === 'replay' ? replayData.value.date : getHoje()
+
+    const historico = JSON.parse(
+        localStorage.getItem('neweradle_historico') || '{}'
     )
-}
 
-function carregarTentativas() {
-    const hoje = getHoje()
-
-    const data = localStorage.getItem(`${hoje}-tentativas`)
-    return data ? JSON.parse(data) : []
-}
-
-function salvarTentativas(lista) {
-    const hoje = getHoje()
-
-    localStorage.setItem(
-        `${hoje}-tentativas`,
-        JSON.stringify(lista)
-    )
-}
-
-function iniciarJogo() {
-    const hoje = getHoje()
-
-    if (modo.value === 'diario') {
-        const ganhou = localStorage.getItem(hoje)
-        const tentativasSalvas = localStorage.getItem(`${hoje}-tentativas`)
-
-        venceuDiario.value = !!ganhou
-        jogouHoje.value = !!ganhou || !!tentativasSalvas
-
-        tentativasDiario.value = tentativasSalvas
-            ? JSON.parse(tentativasSalvas)
-            : []
-
-        if (!venceuDiario.value) {
-            personagemSecreto.value = gerarPersonagem('diario')
+    if (!historico[dataJogo]) {
+        historico[dataJogo] = {
+            attempts: [],
+            original: null
         }
+    }
 
+    historico[dataJogo].attempts = [...tentativas.value]
+
+    if (res.acertou) {
+        historico[dataJogo].original = {
+            win: true,
+            attempts: tentativas.value.length
+        }
+    }
+
+    localStorage.setItem(
+        'neweradle_historico',
+        JSON.stringify(historico)
+    )
+
+    historicoCalendario.value = { ...historico }
+    atualizarStats(historico)
+}
+
+async function jogarReplay(data) {
+    const hoje = getHoje()
+
+    if (data.date == hoje) {
+        modo.value = 'diario'
+        carregarDiario()
         return
     }
 
-    if (modo.value === 'infinito') {
-        personagemSecreto.value = gerarPersonagem('infinito')
-        venceuInfinito.value = false
-        tentativasInfinito.value = []
-    }
+    modo.value = 'replay'
 
-    resetKey.value++
+    replayData.value = data
+
+    const historico = JSON.parse(
+        localStorage.getItem('neweradle_historico') || '{}'
+    )
+
+    const jogo = historico[data.date]
+
+    tentativas.value = jogo?.attempts || []
+    resultado.value = jogo?.original || null
 }
 
-function tentar() {
-    if (!personagemSelecionado.value) return
+function getHistorico() {
+    historicoCalendario.value = JSON.parse(
+        localStorage.getItem('neweradle_historico') || '{}'
+    )
+}
 
-    if (modo.value === 'diario' && jogouHoje.value) return
-    if (modo.value === 'infinito' && venceuInfinito.value) return
+function getHoje() {
+    return new Date().toISOString().split('T')[0]
+}
 
-    const tentativa = personagemSelecionado.value
-    const resultado = comparar(tentativa, personagemSecreto.value)
+function getYesterday(dateStr) {
+    const d = new Date(dateStr)
+    d.setDate(d.getDate() - 1)
+    return d.toISOString().split('T')[0]
+}
 
-    const lista =
-        modo.value === 'diario'
-            ? tentativasDiario.value
-            : tentativasInfinito.value
-
-    lista.push({
-        personagem: tentativa,
-        resultado
-    })
-
-    if (modo.value === 'diario') {
-        salvarTentativas(lista)
-    }
-
-    const hoje = getHoje()
-
-    if (tentativa.id === personagemSecreto.value.id) {
-
-        if (modo.value === 'diario') {
-            venceuDiario.value = true
-
-            const hoje = formatarDataChave()
-
-            localStorage.setItem(hoje, 'win')
-
-            const novoHistorico = {
-                ...historicoCalendario.value,
-                [hoje]: 'win'
-            }
-
-            historicoCalendario.value = novoHistorico
-
-            localStorage.setItem(
-                'historico-calendario',
-                JSON.stringify(novoHistorico)
-            )
-        }
-
-        if (modo.value === 'infinito') {
-            venceuInfinito.value = true
-        }
-    }
-
-    personagemSelecionado.value = null
-    resetKey.value++
+function resetJogo() {
+    resultado.value = null
+    tentativas.value = []
 }
 
 function resetInfinito() {
-    personagemSecreto.value = gerarPersonagem('infinito')
-    tentativasInfinito.value = []
-    venceuInfinito.value = false
-    resetKey.value++
+    jogosInfinito.value++
+
+    resultado.value = null
+    tentativas.value = []
 }
 
-const carregando = ref(true)
+function carregarDiario() {
+    const hoje = getHoje()
 
-const tempoRestante = ref('')
+    const historico = JSON.parse(
+        localStorage.getItem('neweradle_historico') || '{}'
+    )
 
-let timer = null
+    const data = historico[hoje]
 
-function atualizarContador() {
-    const agora = new Date()
-
-    const amanha = new Date()
-    amanha.setDate(amanha.getDate() + 1)
-    amanha.setHours(0, 0, 0, 0)
-
-    const diff = amanha - agora
-
-    const horas = Math.floor(diff / 1000 / 60 / 60)
-    const minutos = Math.floor((diff / 1000 / 60) % 60)
-    const segundos = Math.floor((diff / 1000) % 60)
-
-    tempoRestante.value =
-        `${String(horas).padStart(2, '0')}:` +
-        `${String(minutos).padStart(2, '0')}:` +
-        `${String(segundos).padStart(2, '0')}`
+    if (data?.attempts) {
+        tentativas.value = data.attempts
+        resultado.value = data.original
+    } else {
+        tentativas.value = []
+        resultado.value = null
+    }
 }
 
-onMounted(() => {
-    historicoCalendario.value = carregarHistorico()
-    iniciarJogo()
-    carregando.value = false
+async function carregarDias() {
+    const res = await fetch(`${API_URL}/daily.php?t=` + Date.now(), {
+        cache: 'no-store'
+    })
 
-    atualizarContador()
+    const text = await res.text()
 
-    timer = setInterval(() => {
-        atualizarContador()
-    }, 1000)
-})
+    diasDoServidor.value = JSON.parse(text)
+}
 
-onUnmounted(() => {
-    clearInterval(timer)
+function atualizarStats(historico) {
+    const entries = Object.values(historico)
+
+    totalGames.value = entries.length
+    totalWins.value = entries.filter(h => h.original?.win).length
+    streak.value = calcularStreak(historico)
+}
+
+function calcularStreak(historico) {
+    let streak = 0
+
+    let dataAtual = new Date()
+
+    const hoje = dataAtual.toISOString().split('T')[0]
+
+    if (!historico[hoje]?.original?.win) {
+        dataAtual.setDate(dataAtual.getDate() - 1)
+    }
+
+    while (true) {
+        const key = dataAtual.toISOString().split('T')[0]
+
+        if (!historico[key]?.original?.win) {
+            break
+        }
+
+        streak++
+        dataAtual.setDate(dataAtual.getDate() - 1)
+    }
+
+    return streak
+}
+
+onMounted(async () => {
+    getHistorico()
+
+    personagens.value = await getPersonagens()
+
+    carregarDiario()
+
+    await carregarDias()
+
+    const hist = JSON.parse(localStorage.getItem('neweradle_historico') || '{}')
+
+    atualizarStats(hist)
 })
 </script>
 
 <template>
     <div class="min-h-screen bg-gray-900 text-white p-8">
 
-        <DailyCalendar v-if="mostrarCalendario" :historico="historicoCalendario" @close="mostrarCalendario = false" />
+        <DailyCalendar v-if="mostrarCalendario && Object.keys(diasDoServidor).length" :historico="historicoCalendario"
+            :days="diasDoServidor" @close="mostrarCalendario = false" @replay="jogarReplay" />
 
         <div class="absolute top-4 right-4">
-            <button @click="mostrarCalendario = !mostrarCalendario" class="px-3 py-2 bg-gray-700 rounded-lg text-sm">
-                {{ mostrarCalendario ? 'Fechar calendário' : 'Ver calendário' }}
+            <button @click="mostrarCalendario = !mostrarCalendario"
+                class="px-3 py-2 bg-gray-700 rounded-lg text-sm cursor-pointer">
+                Ver Calendário
             </button>
         </div>
+
 
         <h1 class="mt-12 md:mt-0 text-5xl font-bold text-center mb-8">
             NEWERADLE
         </h1>
 
         <div class="flex gap-2 justify-center mb-6">
-
-            <button @click="modo = 'diario'; iniciarJogo()" :class="modo === 'diario' ? 'bg-purple-600' : 'bg-gray-700'"
-                class="px-4 py-2 rounded-lg">
+            <button @click="mudarModo('diario')" :class="modo === 'diario' ? 'bg-purple-600' : 'bg-gray-700'"
+                class="px-4 py-2 rounded-lg cursor-pointer">
                 Diário
             </button>
 
-            <button @click="modo = 'infinito'; iniciarJogo()"
-                :class="modo === 'infinito' ? 'bg-orange-600' : 'bg-gray-700'" class="px-4 py-2 rounded-lg">
+            <button @click="mudarModo('infinito')" :class="modo === 'infinito' ? 'bg-orange-600' : 'bg-gray-700'"
+                class="px-4 py-2 rounded-lg cursor-pointer">
                 Infinito
             </button>
-
         </div>
 
-        <div v-if="(modo === 'diario' && venceuDiario) || (modo === 'infinito' && venceuInfinito)"
+        <button v-if="modo === 'replay'" @click="mudarModo('diario')" class="w-full my-4 py-3 bg-blue-600 rounded-lg">
+            Voltar ao jogo atual
+        </button>
+
+        <div v-if="(bloqueadoHoje && modo === 'diario') || resultado?.acertou"
             class="mb-6 p-4 bg-green-600 rounded-lg text-center font-bold text-xl">
             Parabéns! Você acertou o personagem!
         </div>
 
-        <div v-if="modo === 'diario' && venceuDiario" class="mb-6 p-4 bg-purple-700 rounded-lg text-center">
+        <div v-if="modo === 'diario' && (resultado?.acertou || bloqueadoHoje)"
+            class="mb-6 p-4 bg-purple-700 rounded-lg text-center">
             <div class="text-lg font-bold">
                 Próximo personagem em
             </div>
 
-            <div class="text-3xl font-mono mt-2">
-                {{ tempoRestante }}
+            <CountdownTimer />
+        </div>
+
+        <div v-if="modo !== 'infinito'" class="flex gap-4 justify-center mb-6 text-center">
+            <div>
+                <div class="text-xl font-bold text-green-400">{{ streak }}</div>
+                <div class="text-xs text-gray-400">Streak</div>
+            </div>
+
+            <div>
+                <div class="text-xl font-bold text-blue-400">{{ totalWins }}</div>
+                <div class="text-xs text-gray-400">Vitórias</div>
+            </div>
+
+            <div>
+                <div class="text-xl font-bold text-gray-300">{{ totalGames }}</div>
+                <div class="text-xs text-gray-400">Jogos</div>
             </div>
         </div>
 
-        <button v-if="modo === 'infinito' && venceuInfinito" @click="resetInfinito"
-            class="w-full mt-4 py-3 bg-green-600 rounded-lg">
+        <div v-else class="flex justify-center mb-6 text-center">
+            <div>
+                <div class="text-xl font-bold text-orange-400">
+                    {{ jogosInfinito }}
+                </div>
+                <div class="text-xs text-gray-400">
+                    Jogos na sessão
+                </div>
+            </div>
+        </div>
+
+        <button v-if="modo === 'infinito' && resultado?.acertou" @click="resetInfinito"
+            class="w-full mt-4 py-3 bg-green-600 rounded-lg cursor-pointer">
             Jogar novamente
         </button>
 
-        <CharacterSearch :key="resetKey" :personagens="personagens" :tentativas="modo === 'diario'
-            ? tentativasDiario
-            : tentativasInfinito"
-            :venceu="(modo === 'diario' && venceuDiario) || (modo === 'infinito' && venceuInfinito)"
-            @select="personagemSelecionado = $event" @try="tentar" />
-
-        <button v-if="!(
-            (modo === 'diario' && jogouHoje) ||
-            (modo === 'infinito' && venceuInfinito)
-        )" @click="tentar" :disabled="!personagemSelecionado" class="w-full mt-4 py-3 rounded-lg font-bold transition"
-            :class="[
-                !personagemSelecionado
-                    ? 'bg-gray-700 text-gray-400 cursor-not-allowed'
-                    : 'bg-blue-600 hover:bg-blue-500 text-white'
-            ]">
-            {{
-                !personagemSelecionado
-                    ? 'Selecione um personagem'
-                    : 'Tentar'
-            }}
-        </button>
+        <CharacterSearch :personagens="personagens" :tentativas="tentativas"
+            :disabled="(bloqueadoHoje && modo === 'diario') || resultado?.acertou" @select="tentar" />
 
         <div class="mt-8">
-            <AttemptsList :tentativas="modo === 'diario' ? tentativasDiario : tentativasInfinito" titulo="Histórico" />
+            <AttemptsList :tentativas="tentativas" titulo="Histórico" />
         </div>
     </div>
 </template>

@@ -1,0 +1,6262 @@
+[
+    {
+        "id": 1,
+        "nome": "Kored Newill",
+        "descricao": [
+            "The K"
+        ],
+        "imagem": "/personagens/recrated/kored_newill.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Desconhecido",
+            "idade": "",
+            "elemento": [
+                "Fogo",
+                "Terra",
+                "Água",
+                "Ar",
+                "Raio"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Organização",
+                "DCE",
+                "Academia",
+                "Mercenarios"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 2,
+        "nome": "Lynda Newill",
+        "descricao": [
+            "Princess"
+        ],
+        "imagem": "/personagens/recrated/lynda_newill.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther",
+                "Ar",
+                "Água",
+                "Raio"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "DCE",
+                "Organização"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 3,
+        "nome": "William Lancker III",
+        "descricao": [
+            "Spades"
+        ],
+        "imagem": "/personagens/recrated/william_lancker_iii.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Ar",
+                "Fogo",
+                "Raio",
+                "Terra",
+                "Água",
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Organização",
+                "Raanabi",
+                "Mercenarios"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 4,
+        "nome": "Ilked Yarros",
+        "descricao": [
+            "Enigmaster"
+        ],
+        "imagem": "/personagens/recrated/ilked_yarros.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Ar"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 5,
+        "nome": "Kevin Nigel",
+        "descricao": [
+            "Hacker"
+        ],
+        "imagem": "/personagens/recrated/kevin_nigel.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Raio"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Academia",
+                "Organização"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 6,
+        "nome": "Bloodsport",
+        "descricao": [],
+        "imagem": "/personagens/recrated/bloodsport.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Sangue"
+            ],
+            "afiliacao": [
+                "Mercenarios"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Desconhecido"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 7,
+        "nome": "Daniel Naverhoney",
+        "descricao": [
+            "Trip"
+        ],
+        "imagem": "/personagens/recrated/daniel_naverhoney.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Raanabi",
+                "Mongekan",
+                "DCE",
+                "Organização",
+                "Mercenarios"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 8,
+        "nome": "Jack Johnson",
+        "descricao": [
+            "Negaton"
+        ],
+        "imagem": "/personagens/recrated/jack_johnson.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Assasinos de Monge"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 9,
+        "nome": "Edgar Blackwood",
+        "descricao": [],
+        "imagem": "/personagens/recrated/edgar_blackwood.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Assasinos de Monge"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 10,
+        "nome": "Hawker",
+        "descricao": [
+            "Kami"
+        ],
+        "imagem": "/personagens/recrated/hawker.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Ar",
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "K-Warriors"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Origen"
+        }
+    },
+    {
+        "id": 11,
+        "nome": "Kamamura Kabutsu",
+        "descricao": [],
+        "imagem": "/personagens/recrated/kamamura_kabutsu.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "70",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "K-Warriors"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Origen"
+        }
+    },
+    {
+        "id": 12,
+        "nome": "Kenji Kabutsu",
+        "descricao": [],
+        "imagem": "/personagens/recrated/kenji_kabutsu.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "68",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "K-Warriors"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Origen"
+        }
+    },
+    {
+        "id": 13,
+        "nome": "Chaz Kajima-Kabutsu",
+        "descricao": [],
+        "imagem": "/personagens/recrated/chaz_kajima_kabutsu.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "69",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "K-Warriors"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Origen"
+        }
+    },
+    {
+        "id": 14,
+        "nome": "Martinez",
+        "descricao": [],
+        "imagem": "/personagens/recrated/martinez.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Raio"
+            ],
+            "afiliacao": [
+                "Mercenarios"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 15,
+        "nome": "Roy",
+        "descricao": [],
+        "imagem": "/personagens/recrated/roy.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mercenarios"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Ruivo"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 16,
+        "nome": "Randall Seffergan",
+        "descricao": [],
+        "imagem": "/personagens/recrated/randall_seffergan.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Averto"
+            ],
+            "afiliacao": [
+                "Raanabi",
+                "Mercenarios",
+                "Assasinos de Monge"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 17,
+        "nome": "Mihael Keehl",
+        "descricao": [],
+        "imagem": "/personagens/recrated/mihael_keehl.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Policia"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 18,
+        "nome": "Garrett Kane",
+        "descricao": [
+            "Red Kane"
+        ],
+        "imagem": "/personagens/recrated/garrett_kane.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Mercenarios",
+                "Organização",
+                "Raanabi"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 19,
+        "nome": "Maakian Newill",
+        "descricao": [
+            "Sub-zero"
+        ],
+        "imagem": "/personagens/recrated/maakian_newill.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Água",
+                "Ar"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "DCE",
+                "Academia"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 20,
+        "nome": "Taara Newill",
+        "descricao": [
+            "Shatter/Shelter"
+        ],
+        "imagem": "/personagens/recrated/taara_newill.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Desconhecido",
+            "idade": "",
+            "elemento": [
+                "Luz"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "DCE"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 21,
+        "nome": "Emerald Newill",
+        "descricao": [],
+        "imagem": "/personagens/recrated/emerald_newill.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Terra"
+            ],
+            "afiliacao": [
+                "Academia"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 22,
+        "nome": "Jaden Newill",
+        "descricao": [
+            "Constructor"
+        ],
+        "imagem": "/personagens/recrated/jaden_newill.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Technovore"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 23,
+        "nome": "Lilian Blackwood",
+        "descricao": [
+            "Koryo"
+        ],
+        "imagem": "/personagens/recrated/lilian_blackwood.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Khan",
+                "Mongekan",
+                "Organização"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 24,
+        "nome": "Koryo",
+        "descricao": [],
+        "imagem": "/personagens/recrated/koryo.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Inexistido",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Khan",
+                "Mongekan",
+                "Organização"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Azul"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 25,
+        "nome": "Oichi Hametsu",
+        "descricao": [],
+        "imagem": "/personagens/recrated/oichi_hametsu.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Terra"
+            ],
+            "afiliacao": [
+                "Khan",
+                "Mongekan",
+                "Organização"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 26,
+        "nome": "Kenshi Kuro",
+        "descricao": [],
+        "imagem": "/personagens/recrated/kenshi_kuro.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Fogo",
+                "Luz",
+                "Raio"
+            ],
+            "afiliacao": [
+                "Kagemura",
+                "DCE",
+                "Mongekan",
+                "Organização"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 27,
+        "nome": "Korinto Nameka",
+        "descricao": [
+            "Materializer"
+        ],
+        "imagem": "/personagens/recrated/korinto_nameka.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Água",
+                "Ar",
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Organização"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 28,
+        "nome": "Kohaku",
+        "descricao": [
+            "Imperador"
+        ],
+        "imagem": "/personagens/recrated/kohaku.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Mongekan",
+                "Organização",
+                "Academia"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto",
+                "Branco"
+            ],
+            "nacionalidade": "Origen"
+        }
+    },
+    {
+        "id": 29,
+        "nome": "Maximilian Schrute",
+        "descricao": [
+            "Doctor"
+        ],
+        "imagem": "/personagens/recrated/maximilian_schrute.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Organização"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 30,
+        "nome": "Inami Jones",
+        "descricao": [
+            "Phoenix"
+        ],
+        "imagem": "/personagens/recrated/inami_jones.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Raio"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 31,
+        "nome": "Runa Yarros",
+        "descricao": [
+            "Rocker"
+        ],
+        "imagem": "/personagens/recrated/runa_yarros.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Terra"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 32,
+        "nome": "Lukas Graham",
+        "descricao": [],
+        "imagem": "/personagens/recrated/lukas_graham.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Raio"
+            ],
+            "afiliacao": [
+                "Kagemura",
+                "DCE"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 33,
+        "nome": "Yamazato Hamake",
+        "descricao": [],
+        "imagem": "/personagens/recrated/yamazato_hamake.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Ar",
+                "Éther"
+            ],
+            "afiliacao": [
+                "Kagemura",
+                "Mongekan"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": ""
+        }
+    },
+    {
+        "id": 34,
+        "nome": "Larssen Nigel",
+        "descricao": [
+            "Destrutor"
+        ],
+        "imagem": "/personagens/recrated/larssen_nigel.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Ar",
+                "Som",
+                "Raio",
+                "Água"
+            ],
+            "afiliacao": [
+                "Khan",
+                "Mongekan",
+                "Kagemura",
+                "Organização"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Origen"
+        }
+    },
+    {
+        "id": 35,
+        "nome": "Horikenn Nigel",
+        "descricao": [],
+        "imagem": "/personagens/recrated/horikenn_nigel.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Khan"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Origen"
+        }
+    },
+    {
+        "id": 36,
+        "nome": "Darcy Khan",
+        "descricao": [],
+        "imagem": "/personagens/recrated/darcy_khan.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Khan"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 37,
+        "nome": "Robert Estaniano",
+        "descricao": [],
+        "imagem": "/personagens/recrated/robert_estaniano.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Desconhecido",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 38,
+        "nome": "Courtney Rivas",
+        "descricao": [
+            "Aim"
+        ],
+        "imagem": "/personagens/recrated/courtney_rivas.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Desconhecido",
+            "idade": "",
+            "elemento": [
+                "Éther",
+                "Ar"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 39,
+        "nome": "Ox Laurent",
+        "descricao": [],
+        "imagem": "/personagens/recrated/ox_laurent.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Ar"
+            ],
+            "afiliacao": [
+                "Organização"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 40,
+        "nome": "Idro Laurent",
+        "descricao": [],
+        "imagem": "/personagens/recrated/idro_laurent.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Água"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 41,
+        "nome": "Shio Laurent",
+        "descricao": [
+            "Shadow"
+        ],
+        "imagem": "/personagens/recrated/shio_laurent.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Amalgamado",
+            "idade": "",
+            "elemento": [
+                "Averto"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 42,
+        "nome": "Chloe Idrich",
+        "descricao": [
+            "Acid"
+        ],
+        "imagem": "/personagens/recrated/chloe_idrich.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Ar",
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "DCE",
+                "Organização"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Azul"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 43,
+        "nome": "Bruno Lopes",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/bruno_lopes.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Amalgamado",
+            "idade": "",
+            "elemento": [
+                "Averto"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 44,
+        "nome": "Gamaliel Nigel",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/gamaliel_nigel.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Khan",
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 45,
+        "nome": "David Kovacs",
+        "descricao": [
+            "Moghul Khan"
+        ],
+        "imagem": "/personagens/newEra1/david_kovacs.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Metal"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Khan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 46,
+        "nome": "Graeff",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/graeff.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Ar"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Brasil"
+        }
+    },
+    {
+        "id": 47,
+        "nome": "Jason Miller",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/jason_miller.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 48,
+        "nome": "Ibrah Leo",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/ibrah_leo.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Averto"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Exército de Ralija"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 49,
+        "nome": "Illiri",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/illiri.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 50,
+        "nome": "Ornio Bracavo",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/ornio_bracavo.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Desconhecido",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 51,
+        "nome": "Calypso",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/calypso.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nochtys"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 52,
+        "nome": "Emma Clarke",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/emma_clarke.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Amalgamado",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 53,
+        "nome": "Huan-Liu Fang",
+        "descricao": [
+            "Nosso senhor"
+        ],
+        "imagem": "/personagens/newEra1/huan_liu_fang.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 54,
+        "nome": "Rainer Kesbal",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/rainer_kesbal.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Metal"
+            ],
+            "afiliacao": [
+                "Khan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 55,
+        "nome": "Aleza Oha",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/aleza_oha.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Água"
+            ],
+            "afiliacao": [
+                "Khan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Rosê"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 56,
+        "nome": "Troy Lautaro",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/troy_lautaro.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Khan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 57,
+        "nome": "Yanka Lavio",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/yanka_lavio.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Khan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 58,
+        "nome": "Claude Yohan",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/claude_yohan.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 59,
+        "nome": "Claude Laurent",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/claude_laurent.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther",
+                "Ar",
+                "Fogo",
+                "Raio",
+                "Água",
+                "Terra"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Policia"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 60,
+        "nome": "Mycen McTaggert",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/mycen_mctaggert.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Policia",
+                "DCE",
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 61,
+        "nome": "Melissa Syren",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/melissa_syren.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Água"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 62,
+        "nome": "Cole Heart",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/cole_heart.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Terra"
+            ],
+            "afiliacao": [
+                "Organização"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 63,
+        "nome": "Floyd Gardiman",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/floyd_gardiman.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Ar"
+            ],
+            "afiliacao": [
+                "Organização"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 64,
+        "nome": "Jason Walker",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/jason_walker.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Raio"
+            ],
+            "afiliacao": [
+                "Organização"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 65,
+        "nome": "Kaio Gemini",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/kaio_gemini.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Organização"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 66,
+        "nome": "Zoe",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/zoe.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Gelo"
+            ],
+            "afiliacao": [
+                "Organização",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 67,
+        "nome": "Diocleciano Brandão",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/diocleciano_brandao.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 68,
+        "nome": "Lysander Red",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/lysander_red.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Rosa"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 69,
+        "nome": "Kristoff Fang",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/kristoff_fang.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo",
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 70,
+        "nome": "Laura Calel",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/laura_calel.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 71,
+        "nome": "Papangu Assassino",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/papangu_assassino.webp",
+        "atributos": {
+            "genero": "Desconhecido",
+            "estadoAtual": "Desconhecido",
+            "idade": "Desconhecido",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Desconhecido"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 72,
+        "nome": "Rellic Colotini",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/rellic_colotini.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Sangue"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 73,
+        "nome": "Wanderlei Cordeiro",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/wanderlei_cordeiro.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Som"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 74,
+        "nome": "Daniel Troy",
+        "descricao": [
+            "Garra"
+        ],
+        "imagem": "/personagens/newEra1/daniel_troy.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Sangue"
+            ],
+            "afiliacao": [
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Cinza"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 75,
+        "nome": "Ignar Karion",
+        "descricao": [
+            "Mente"
+        ],
+        "imagem": "/personagens/newEra1/ignar_karion.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Fogo",
+                "Raio",
+                "Água"
+            ],
+            "afiliacao": [
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 76,
+        "nome": "Pollo Skyer",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/pollo_skyer.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Desconhecido",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 77,
+        "nome": "Ryan McCarthy",
+        "descricao": [
+            "Lâmina"
+        ],
+        "imagem": "/personagens/newEra1/ryan_mccarthy.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 78,
+        "nome": "Yane Heart",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/yane_heart.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 79,
+        "nome": "Razael Lockenai",
+        "descricao": [
+            "Portador"
+        ],
+        "imagem": "/personagens/newEra1/razael_lockenai.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Reformados",
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 80,
+        "nome": "Clive Eryon II",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/clive_eryon_ii.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Terra"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 81,
+        "nome": "Brandon Sky",
+        "descricao": [
+            "Pai"
+        ],
+        "imagem": "/personagens/newEra1/brandon_sky.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Infinito",
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 82,
+        "nome": "Damien McCarthy",
+        "descricao": [
+            "Lâmina"
+        ],
+        "imagem": "/personagens/newEra1/damien_mccarthy.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 83,
+        "nome": "Klea Connor",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/klea_connor.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 84,
+        "nome": "Chris",
+        "descricao": [
+            "Mr Chris"
+        ],
+        "imagem": "/personagens/newEra1/mr_chris.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 85,
+        "nome": "Jonah Joanknecht",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/jonah_joanknecht.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Reformados",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 86,
+        "nome": "Aaron Christensen",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/aaron_christensen.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Luz"
+            ],
+            "afiliacao": [
+                "Reformados",
+                "DCE",
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 87,
+        "nome": "Clara Morke",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/clara_morke.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Reformados",
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 88,
+        "nome": "Leon Vargas",
+        "descricao": [
+            "Trickshot"
+        ],
+        "imagem": "/personagens/newEra1/leon_vargas.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther",
+                "Ar"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Reformados"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 89,
+        "nome": "Samantha Jefferson",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/samantha_jefferson.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Luz"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Reformados"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 90,
+        "nome": "Scott Whalen",
+        "descricao": [
+            "Homem Espelho"
+        ],
+        "imagem": "/personagens/newEra1/scott_whalen.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Reformados",
+                "Policia"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 91,
+        "nome": "Nikola Trujillo",
+        "descricao": [
+            "Nitro"
+        ],
+        "imagem": "/personagens/newEra1/nikola_trujillo.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 92,
+        "nome": "Lisa Kant",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/lisa_kant.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 93,
+        "nome": "Mari Kant",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/mari_kant.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 94,
+        "nome": "Ken Edwards",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/ken_edwards.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Metal",
+                "Terra"
+            ],
+            "afiliacao": [
+                "Reformados",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 95,
+        "nome": "Angelica Romani",
+        "descricao": [
+            "Siena de Medici"
+        ],
+        "imagem": "/personagens/newEra1/angelica_romani.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Itália"
+        }
+    },
+    {
+        "id": 96,
+        "nome": "Alexander Nunes",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/alexander_nunes.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 97,
+        "nome": "April O´Neal",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/april_oneal.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Rosa"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 98,
+        "nome": "Arthur Lopes",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/arthur_lopes.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "63",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 99,
+        "nome": "Luke Holloway",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/luke_holloway.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 100,
+        "nome": "Marie Mora",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/marie_mora.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 101,
+        "nome": "Nala Gaek",
+        "descricao": [
+            "Arco"
+        ],
+        "imagem": "/personagens/newEra1/nala_gaek.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Roxo"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 102,
+        "nome": "Wagner Homem Barros",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/wagner_barros.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 103,
+        "nome": "Terry Jefferson",
+        "descricao": [
+            "Feedback",
+            "Agente 00"
+        ],
+        "imagem": "/personagens/newEra1/terry_jefferson.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 104,
+        "nome": "Amanda Clauss",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/amanda_clauss.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 105,
+        "nome": "Hannah Schrute",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/hannah_schrute.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 106,
+        "nome": "Matthew Tanuki",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/matthew_tanuki.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 107,
+        "nome": "Nathaniel Plate",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/nathaniel_plate.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Organização",
+                "Policia",
+                "Academia"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 108,
+        "nome": "Slade Dykes",
+        "descricao": [
+            "Tigre Branco"
+        ],
+        "imagem": "/personagens/newEra1/slade_dykes.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 109,
+        "nome": "1-A",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/1_a.webp",
+        "atributos": {
+            "genero": "Desconhecido",
+            "estadoAtual": "Morto",
+            "idade": "Desconhecido",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 110,
+        "nome": "Alice Silva",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/alice_silva.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 111,
+        "nome": "Isaac Coleman",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/isaac_coleman.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 112,
+        "nome": "Richard Doyle",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/richard_doyle.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Ar"
+            ],
+            "afiliacao": [
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 113,
+        "nome": "Asuna Inero",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/asuna_inero.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 114,
+        "nome": "Madeline O´Neal",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/madeline_oneal.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo",
+                "Raio",
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 115,
+        "nome": "Martin Crownshaw",
+        "descricao": [
+            "Carbon"
+        ],
+        "imagem": "/personagens/newEra1/martin_crownshaw.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 116,
+        "nome": "Miles Cutter",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/miles_cutter.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Cinza"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 117,
+        "nome": "Ticianna Langstrom",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/ticianna_langstrom.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo",
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Verde"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 118,
+        "nome": "Carlos Makun",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/carlos_makun.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 119,
+        "nome": "Fabian Naverhoney",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/fabian_neverhoney.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 120,
+        "nome": "Adrian Donnel",
+        "descricao": [
+            "Wirefist"
+        ],
+        "imagem": "/personagens/newEra1/adrian_donnel.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Raio"
+            ],
+            "afiliacao": [
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 121,
+        "nome": "Kyle Clarke",
+        "descricao": [
+            "Crysis"
+        ],
+        "imagem": "/personagens/newEra1/kyle_clarke.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 122,
+        "nome": "Curtis Klein",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/curtis_klein.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 123,
+        "nome": "Paul Erickson",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/paul_erickson",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 124,
+        "nome": "Shane Whalen",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/shane_whalen.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Som",
+                "Sangue"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Verde"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 125,
+        "nome": "Constance Bell",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/constance_bell.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 126,
+        "nome": "Dajas",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/dajas.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 127,
+        "nome": "Mané Balbino",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/mane_balbino.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 128,
+        "nome": "Executor",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/executor.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nosso Senhor",
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 129,
+        "nome": "Kitsune",
+        "descricao": [
+            "Neo Terra"
+        ],
+        "imagem": "/personagens/newEra1/kitsune.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther",
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Nosso Senhor",
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 130,
+        "nome": "Violet Stock",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/violet_stock.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 131,
+        "nome": "Balian Keridu",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/balian_keridu.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Luz"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 132,
+        "nome": "Mensageiro",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/mensageiro.webp",
+        "atributos": {
+            "genero": "Desconhecido",
+            "estadoAtual": "Vivo",
+            "idade": "Desconhecido",
+            "elemento": [
+                "Primordial"
+            ],
+            "afiliacao": [
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Desconhecido"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 133,
+        "nome": "Jake Kasame",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/jake_kasame.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 134,
+        "nome": "Lucas Feuerschute",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/lucas_feuerschute.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 135,
+        "nome": "Lydian Klinch",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/lydian_klinch.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Raio"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 136,
+        "nome": "Paulo Bittencourt",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/paulo_bittencourt.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 137,
+        "nome": "Net",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/net.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 138,
+        "nome": "June Monteblanco",
+        "descricao": [
+            "Taylor Khan"
+        ],
+        "imagem": "/personagens/newEra1/june_monteblanco.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Ar"
+            ],
+            "afiliacao": [
+                "Khan",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 139,
+        "nome": "Abaddon Smythe",
+        "descricao": [
+            "Mente"
+        ],
+        "imagem": "/personagens/newEra1/abaddon_smythe.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Infinito",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 140,
+        "nome": "Liv Sanders",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/liv_sanders.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Nosso Senhor"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 141,
+        "nome": "Erick Ofidius",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/erick_ofidius.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Ar"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Ruivo"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 142,
+        "nome": "Gabriel Loathfoxer",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/gabriel_loathfoxer.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Metal"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 143,
+        "nome": "Jeffrey Matsukaze",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/jeffrey_mastsukaze.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Rosa"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 144,
+        "nome": "Leo Dreyer",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/leo_dreyer.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Raio"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 145,
+        "nome": "Ronni Chatman",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/ronni_chatman.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Averto"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 146,
+        "nome": "Sonny Ephige",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/sonny_ephige.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Luz"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 147,
+        "nome": "Wanessa Mitchell",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/wanessa_mitchell.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Água"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Azul"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 148,
+        "nome": "Janine Garden",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/janine_garden.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Kiribaku"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Verde"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 149,
+        "nome": "Layla Yarros",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/layla_yarros.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Kiribaku",
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 150,
+        "nome": "Natsuo Kiribaku",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/natsuo_kiribaku.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Kiribaku"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 151,
+        "nome": "Sergio Volkmann",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/sergio_volkmann.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Kiribaku"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 152,
+        "nome": "Paulo Start",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/paulo_start.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 153,
+        "nome": "Sr Cebolaceo",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/cebolaceo.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 154,
+        "nome": "Gina",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/gina.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 155,
+        "nome": "Pietro Pija",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/pietro_pijas.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 156,
+        "nome": "Brocador",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/brocador.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 157,
+        "nome": "Julio Cesar Gyro",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/julio_cesar_gyro.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Desconhecido",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Napoles"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Itália"
+        }
+    },
+    {
+        "id": 158,
+        "nome": "Louis Trajano",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/louis_trajano.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther",
+                "Raio"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Kiribaku",
+                "Mongekan",
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 159,
+        "nome": "Riza Howlett",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/riza_howlett.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Terra"
+            ],
+            "afiliacao": [
+                "Khan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 160,
+        "nome": "Liam Kovacs",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/liam_kovacs.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 161,
+        "nome": "Pai Jassum",
+        "descricao": [
+            "Guia Espiritual"
+        ],
+        "imagem": "/personagens/newEra1/pai_jassum.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 162,
+        "nome": "Berna",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/berna.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Azul"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 163,
+        "nome": "Mano Donga",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/mano_donga.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Som"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 164,
+        "nome": "Marcos Peladão",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/marcos.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Ruivo"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 165,
+        "nome": "Paulinho Gostosa",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/paulinho.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 166,
+        "nome": "Adriano Martello",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/adriano_martello.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 167,
+        "nome": "Alletun Slyrack",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/alleton_slyrack.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Água"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 168,
+        "nome": "Anna Hiei",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/anna_hiei.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Sangue"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Ruivo"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 169,
+        "nome": "Balthazar Drake",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/balthazar_drake.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther",
+                "Fogo",
+                "Água",
+                "Ar",
+                "Raio",
+                "Terra",
+                "Averto"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 170,
+        "nome": "Dominic Kuro",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/dominic_kuro.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther",
+                "Fogo",
+                "Água",
+                "Ar",
+                "Raio",
+                "Terra",
+                "Averto"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 171,
+        "nome": "Blake Moonlight",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/blake_moonlight.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Sangue",
+                "Éther"
+            ],
+            "afiliacao": [
+                "Nochtys",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 172,
+        "nome": "Dimitri Dzeko",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/dimitri_dzeko.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo",
+                "Gelo"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 173,
+        "nome": "D.Y.L.A.N",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/dylan.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 174,
+        "nome": "Emilia",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/emilia.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Averto"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 175,
+        "nome": "Rei Reagan",
+        "descricao": [
+            "Imperatriz"
+        ],
+        "imagem": "/personagens/newEra2/rei_reagan.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Terra"
+            ],
+            "afiliacao": [
+                "Khan",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Rosa"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 176,
+        "nome": "Erik Lanker",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/erik_lanker.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Khan",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 177,
+        "nome": "Iran",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/iran.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Khan"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 178,
+        "nome": "Rakai Johnson",
+        "descricao": [
+            "Ethan"
+        ],
+        "imagem": "/personagens/newEra2/rakai_johnson",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Água"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Ruivo",
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 179,
+        "nome": "Gandora",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/gandora.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 180,
+        "nome": "James Valentine",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/james_valentine.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum",
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 181,
+        "nome": "Kai Mindulhin",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/kai_mindulhin.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Terra"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 182,
+        "nome": "Leandre Roberts",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/leandre_roberts.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 183,
+        "nome": "Marcel Oliveira",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/marcel_oliveira.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 184,
+        "nome": "Nick Haryuuki",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/nick_haryuuki.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Sangue",
+                "Ar",
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 185,
+        "nome": "Reginaldo Nickname",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/reginaldo_nickname.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 186,
+        "nome": "Rohnal d'Inhou",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/rohnal_dinhou.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Ar"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 187,
+        "nome": "Rohan Newill",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/rohan_newill.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Ar"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "Recrated",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 188,
+        "nome": "Umbra",
+        "descricao": [],
+        "imagem": "/personagens/newEra1/umbra.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Averto"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 1",
+            "cabelo": [
+                "Castanho",
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 189,
+        "nome": "Yoshiaki Mikami",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/yoshiaki_miokami.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Fogo",
+                "Gelo",
+                "Metal",
+                "Sangue"
+            ],
+            "afiliacao": [
+                "Khan"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 190,
+        "nome": "Zoe Trinity",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/zoe_trinity.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Terra"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 191,
+        "nome": "Jessica Valentine",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/jessica_valentine.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther",
+                "Luz",
+                "Averto"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Mongekan",
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 192,
+        "nome": "Lanaya",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/lanaya.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Metal",
+                "Terra",
+                "Fogo",
+                "Sangue"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 193,
+        "nome": "Li Fang",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/li_fang.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 194,
+        "nome": "Katsuo Mikami",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/katsuo_mikami.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Fogo",
+                "Raio"
+            ],
+            "afiliacao": [
+                "Khan",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 195,
+        "nome": "Ricardo Monteblanco",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/ricardo_monteblanco.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Origen"
+        }
+    },
+    {
+        "id": 196,
+        "nome": "Constantine Tsimikas",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/constantine_tsimikas.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Khan",
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 197,
+        "nome": "ADDA",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/adda.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 198,
+        "nome": "Agapito Makun",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/agapito_makun.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Mafia"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 199,
+        "nome": "Barbara Queen",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/barbara_queen.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Luz"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Mercenarios"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Ruivo"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 200,
+        "nome": "Cecilia Monteblanco",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/cecilia_monteblanco.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 201,
+        "nome": "Catarina Benett",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/catarina_benett.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Ruivo"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 202,
+        "nome": "Gamaliel",
+        "descricao": [
+            "Replicante"
+        ],
+        "imagem": "/personagens/newEra2/gamaliel_replicante.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 203,
+        "nome": "James",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Desconhecido",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 204,
+        "nome": "Juny Philip",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/juny_philip.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 205,
+        "nome": "Marina",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/marina.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Metal"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 206,
+        "nome": "Leonard",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/leonard.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Monteblanco"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 207,
+        "nome": "Morty",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/morty.webp",
+        "atributos": {
+            "genero": "Desconhecido",
+            "estadoAtual": "Desconhecido",
+            "idade": "Desconhecido",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 208,
+        "nome": "Vineo Apenas",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/vineo_apenas.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 209,
+        "nome": "Rebles",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/rebles.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 210,
+        "nome": "Salazar",
+        "descricao": [],
+        "imagem": "/personagens/newEra2/salazar.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Technovore"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 2",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ilhas Stocks"
+        }
+    },
+    {
+        "id": 211,
+        "nome": "Edward",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/edward.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Ar",
+                "Terra"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 212,
+        "nome": "Gellert Newman",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/gellert_newman.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 213,
+        "nome": "Petrus Trajano",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/petrus_trajano.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Luz",
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 214,
+        "nome": "Henrick York",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/henrick_york.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 215,
+        "nome": "Liang Chin",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/liang_chin.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 216,
+        "nome": "Hassan",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/hassan.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Averto"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 217,
+        "nome": "Alan Rebertt",
+        "descricao": [
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/alan_rebertt.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Mercenarios"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 218,
+        "nome": "Barbara Queen",
+        "descricao": [
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/barbara_queen_contra.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Luz"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Mercenarios"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Ruivo"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 219,
+        "nome": "Bob",
+        "descricao": [
+            "Contraterra",
+            "Escudo"
+        ],
+        "imagem": "/personagens/newEra3/bob.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "DCE",
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 220,
+        "nome": "Muryo Tanoshi",
+        "descricao": [
+            "Contraterra",
+            "Punho"
+        ],
+        "imagem": "/personagens/newEra3/muryo_tanoshi_contra.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "DCE",
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 221,
+        "nome": "Kael",
+        "descricao": [
+            "Contraterra",
+            "Garra"
+        ],
+        "imagem": "/personagens/newEra3/kael.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 222,
+        "nome": "Ryan V. Raymond",
+        "descricao": [
+            "Contraterra",
+            "Arco"
+        ],
+        "imagem": "/personagens/newEra3/ryan_raymond.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "DCE",
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 223,
+        "nome": "Muryo Tanoshi",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/muryo_tanoshi.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Desconhecido",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 224,
+        "nome": "Alick Nicks",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/alick_nicks.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Água"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Cinza"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 225,
+        "nome": "David Luna",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/david_luna.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Desconhecido",
+            "idade": "",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 226,
+        "nome": "Delilah Voort",
+        "descricao": [
+            "Kitsune",
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/delilah_voort.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Sangue",
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Rosa"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 227,
+        "nome": "François Cheverri",
+        "descricao": [
+            "Trickster",
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/francois_cheverri.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 228,
+        "nome": "Yuri Kuzchev",
+        "descricao": [
+            "Titeireiro",
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/yuri_kuzchev.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Raio"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 229,
+        "nome": "Marco Fernan",
+        "descricao": [
+            "Oniromante",
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/marco_fernan.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 230,
+        "nome": "Flora Li",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/flora_li.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Terra"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 231,
+        "nome": "Kaid Bauer",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/kaid_bauer.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 232,
+        "nome": "Keith Volkrath",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/keith_volkrath.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Ar",
+                "Água"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 233,
+        "nome": "Keith Volkrath",
+        "descricao": [
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/keith_volkrath_contra.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Ar",
+                "Água"
+            ],
+            "afiliacao": [
+                "Mercenarios"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 234,
+        "nome": "Nicole Evans",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/nicole_evans.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 235,
+        "nome": "Yuki Mikami",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/yuki_mikami.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Sangue",
+                "Fogo",
+                "Raio"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 236,
+        "nome": "Niko Yarros",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/niko_yarros.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 237,
+        "nome": "Daren Lopes",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/daren_lopes.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Averto"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 238,
+        "nome": "Solomon Von Raiter",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/solomon_von_raiter.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Academia",
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Nenhum"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 239,
+        "nome": "Lorenço Montague",
+        "descricao": [
+            "Palhaço Cosquita"
+        ],
+        "imagem": "/personagens/newEra3/lorenco_montague.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "27",
+            "elemento": [
+                "Éther",
+                "Fogo",
+                "Terra",
+                "Água",
+                "Ar",
+                "Raio"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 240,
+        "nome": "Ace Valentine",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/ace_valentine.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "16",
+            "elemento": [
+                "Éther",
+                "Terra"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 241,
+        "nome": "Aurora Valentine",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/aurora_valentine.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "16",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 242,
+        "nome": "Kairon Moonlight",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/kairon_moonlight.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Sangue"
+            ],
+            "afiliacao": [
+                "DCE",
+                "Nochtys"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 243,
+        "nome": "Suwan Sud",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/suwan_sud.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Sangue"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 244,
+        "nome": "Isis Monet",
+        "descricao": [
+            "Mirage",
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/isis_monet.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 245,
+        "nome": "Kali Monet",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/kali_monet.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 246,
+        "nome": "Morgan Sinclair",
+        "descricao": [
+            "Caelus",
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/morgan_sinclair.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Raio"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Cinza"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 247,
+        "nome": "Adam Spritzer",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/adam_spritzer.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 248,
+        "nome": "Kored Hojolt",
+        "descricao": [
+            "Campeão"
+        ],
+        "imagem": "/personagens/newEra3/kored_hojolt.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 249,
+        "nome": "Yulia Von Raiter",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/yulia_von_raiter.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 250,
+        "nome": "Hugo Laplace",
+        "descricao": [
+            "Lâmina"
+        ],
+        "imagem": "/personagens/newEra3/hugo_laplace",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Éther"
+            ],
+            "afiliacao": [
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 251,
+        "nome": "Shareena Lawson",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/shareena_lawson.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Sangue"
+            ],
+            "afiliacao": [
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Saosa"
+        }
+    },
+    {
+        "id": 252,
+        "nome": "Enoch",
+        "descricao": [
+            "Garra"
+        ],
+        "imagem": "/personagens/newEra3/enoch.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "Desconhecido",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 253,
+        "nome": "Jude Tanaka",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/jude_tanaka.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Gelo"
+            ],
+            "afiliacao": [
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Ruivo"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 254,
+        "nome": "Castor Whitman",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/castor_whitman.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Metal"
+            ],
+            "afiliacao": [
+                "Academia"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 255,
+        "nome": "Clementine Schifer",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/clementine_schifer.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 256,
+        "nome": "Cecilia Schifer",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/cecilia_schifer.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Som"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto",
+                "Vermelho"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 257,
+        "nome": "Biopantera",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/biopantera.webp",
+        "atributos": {
+            "genero": "Desconhecido",
+            "estadoAtual": "Vivo",
+            "idade": "Desconhecido",
+            "elemento": [
+                "Desconhecido"
+            ],
+            "afiliacao": [
+                "Desconhecido"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Desconhecido"
+        }
+    },
+    {
+        "id": 258,
+        "nome": "Gabriel Amesh",
+        "descricao": [
+            "Golldark",
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/gabriel_amesh.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Água",
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 259,
+        "nome": "Taara Newill",
+        "descricao": [
+            "Shatter",
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/taara_newill_contra.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Luz"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 260,
+        "nome": "Courtney Rivas",
+        "descricao": [
+            "Aim",
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/courtney_rivas.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Éther",
+                "Ar"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 261,
+        "nome": "Lunne Estaniano",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/lunne_estaniano.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Luz"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Ralija"
+        }
+    },
+    {
+        "id": 262,
+        "nome": "Luna Estaniano",
+        "descricao": [
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/luna_estaniano_contra.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "Nenhum"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 263,
+        "nome": "Elizabeth Lancker",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/elizabeth_lancker.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Bombeiro"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Ruivo"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 264,
+        "nome": "Esme Simmons",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/esme_simmons.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Nenhum"
+            ],
+            "afiliacao": [
+                "DCE"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Ruivo"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 265,
+        "nome": "Icerina",
+        "descricao": [],
+        "imagem": "/personagens/newEra3/icerina.webp",
+        "atributos": {
+            "genero": "Feminino",
+            "estadoAtual": "Morto",
+            "idade": "",
+            "elemento": [
+                "Gelo"
+            ],
+            "afiliacao": [
+                "Dragões"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Branco"
+            ],
+            "nacionalidade": "Origen"
+        }
+    },
+    {
+        "id": 266,
+        "nome": "Kendall",
+        "descricao": [
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/kandall.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo",
+                "Éther"
+            ],
+            "afiliacao": [
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Loiro"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 267,
+        "nome": "William Lancker III",
+        "descricao": [
+            "Contraterra"
+        ],
+        "imagem": "/personagens/newEra3/willwiam_lancker_iii_contraterra.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo"
+            ],
+            "afiliacao": [
+                "Mercenarios",
+                "Mongekan"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Preto"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    },
+    {
+        "id": 268,
+        "nome": "Kored Newill",
+        "descricao": [
+            "The K",
+            "Contraterra",
+            "Pai"
+        ],
+        "imagem": "/personagens/newEra3/kored_newill_contra.webp",
+        "atributos": {
+            "genero": "Masculino",
+            "estadoAtual": "Vivo",
+            "idade": "",
+            "elemento": [
+                "Fogo",
+                "Água",
+                "Ar",
+                "Terra",
+                "Raio"
+            ],
+            "afiliacao": [
+                "Mongekan",
+                "Mercenarios",
+                "Infinito"
+            ],
+            "primeiraAparicao": "New Era 3",
+            "cabelo": [
+                "Castanho"
+            ],
+            "nacionalidade": "Natiuse"
+        }
+    }
+]
