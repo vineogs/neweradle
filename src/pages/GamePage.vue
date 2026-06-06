@@ -79,6 +79,10 @@ async function tentar(personagem) {
 
     resultado.value = res
 
+    if (modo.value === 'infinito' && res.acertou) {
+        jogosInfinito.value++
+    }
+
     const dataJogo = modo.value === 'replay' ? replayData.value.date : getHoje()
 
     const historico = JSON.parse(
@@ -155,8 +159,6 @@ function resetJogo() {
 }
 
 function resetInfinito() {
-    jogosInfinito.value++
-
     resultado.value = null
     tentativas.value = []
 }
